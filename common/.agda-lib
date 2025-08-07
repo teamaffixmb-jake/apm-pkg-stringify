@@ -1,0 +1,2 @@
+name: StringifyCommon
+include: . deps
