@@ -17,6 +17,7 @@ private
     infixr 5 _++_
 
 postulate instance
+    string-interp : {s : String} -> Interpretation s s
     nat-interp : {n : Nat} -> Interpretation n (primShowNat n)
     int-interp : {i : Int} -> Interpretation i (primShowInteger i)
     false-interp : Interpretation false "false"

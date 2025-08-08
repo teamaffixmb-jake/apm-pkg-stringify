@@ -28,4 +28,4 @@ postulate instance
     jake-is-awesome-interp : Interpretation JakeIsAwesome "jake is awesome"
 
 exampleStr : String
-exampleStr = stringify (prob-of-jake-is-awesome)
+exampleStr = stringify prob-of-jake-is-awesome
